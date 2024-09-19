@@ -1,57 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(0, 0, 33);
-    color: white;
-    font-family:poppins, sans-serif;
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: poppins, sans-serif;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-    background-color: rgb(2, 2, 49);
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(2, 2, 49);
 }
 
 nav ul {
-    display:flex;
-    justify-content: center;
-    
+  display: flex;
+  justify-content: center;
 }
 
 nav ul li {
-    margin: 0 23px;
-    list-style: none;
+  margin: 0 23px;
+  list-style: none;
 }
-.left{
-    font-size: 1.3rem;
+ul li a {
+  text-decoration: none;
+  color: #ffff;
 }
-.firstSection{
-    display: flex;
-    justify-content: space-around;
-    margin:23px 0;
+ul li a:hover {
+  text-decoration: none;
+  color: white;
+  font-size: 1.02rem;
+}
+.left {
+  font-size: 1.3rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0;
 }
 .firstSection > div {
-    width: 25%;
+  width: 25%;
 }
-.leftSection{
-    font-size: 3rem;
-    margin: 30px 0;
-    color: white;
-    font-weight: 500;
+.leftSection {
+  font-size: 3rem;
+  margin: 30px 0;
+  color: white;
+  font-weight: 500;
 }
-.rightSection{
-    
+.rightSection {
 }
 .rightSection img {
-    width: 80%;
-    margin: 50px 0;
+  width: 80%;
+  margin: 50px 0;
 }
 
-.purple{
-    color: rgb(235, 20, 235);
+.purple {
+  color: rgb(235, 20, 235);
+}
+#element {
+  color: rgb(235, 20, 235);
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+main hr {
+  border: 0;
+  height: 2px;
+  background-color: rgb(160, 106, 160);
+  margin: 40px 84px;
+}
+.text-gray {
+  color: gray;
+}
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection .vertical {
+  background-color: white;
+  height: 93px;
+  width: 1px;
+  margin: 0 155px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -28px;
+  left: -11px;
+}
+.vertical-title {
+  position: relative;
+  top: 75px;
+  width: 150px;
+}
+.vertical-desc {
+  position: relative;
+  top: 100px;
+  width: 277px;
+  color: gray;
+  font-size: 15px;
 }
